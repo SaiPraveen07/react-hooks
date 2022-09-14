@@ -7,6 +7,7 @@ import { Reducer } from "./Reducer";
 import { RefHook } from "./RefHook";
 import { UseCallbackExample } from "./UseCallbackExample";
 import { UseEffectCleanupDemo } from "./useEffectCleanupDemo";
+import { UserDashboard } from "./user-dashboard/userDashboard";
 import { Welcome } from "./welcome";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       {/*<Counter />*/}
       {/*<UseEffectCleanupDemo />*/}
       {/* <PrincipleInsterstCal /> */}
+      {/*<UserDashboard />*/}
       {/*<Home />*/}
       {/*<Reducer />*/}
        {/*<RefHook />*/}
