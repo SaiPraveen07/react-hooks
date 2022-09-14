@@ -1,9 +1,11 @@
 import { Counter } from "./Counter";
+import { UseMemoExample } from "./UseMemoExample";
 import { Greeting } from "./Greeting";
 import { Home } from "./Home";
 import { PrincipleInsterstCal } from "./principleInterestCal";
 import { Reducer } from "./Reducer";
 import { RefHook } from "./RefHook";
+import { UseCallbackExample } from "./UseCallbackExample";
 import { UseEffectCleanupDemo } from "./useEffectCleanupDemo";
 import { Welcome } from "./welcome";
 
@@ -18,7 +20,9 @@ function App() {
       {/* <PrincipleInsterstCal /> */}
       {/*<Home />*/}
       {/*<Reducer />*/}
-       <RefHook />
+       {/*<RefHook />*/}
+      {/*<UseMemoExample />*/}
+      <UseCallbackExample />
     </div>
   );
 }
